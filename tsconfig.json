@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "allowImportingTsExtensions": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "@store/*": ["src/store/*"],
+      "@components/*": ["src/components/*"]
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/***/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
